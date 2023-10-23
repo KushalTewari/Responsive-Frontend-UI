@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presento Template</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <!-- Header starts -->
+    <header id="header" class="header">
+      <div class="container">
+        <div class="k__flex k__flex--align-center k__flex--justify-between">
+          <div class="k__flex-item">
+            <div class="logo">
+              <a href="index.html">Presento</a>
+            </div>
+          </div>
+          <div class="k__flex-item">
+            <div class="k__flex k__flex--align-center header__options">
+              <nav aria-labelledby="navigation">
+                <ul
+                  class="navigation k__flex k__flex--align-center list--style-none"
+                >
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li class="navigation__item--dropdown">
+                    <a class="k__flex-gap--tight" href="#">
+                      <span>Dropdown</span>
+                      <span class="chevron chevron--down"></span>
+                    </a>
+                    <ul class="dropdown dropdown--bottom list--style-none">
+                      <li><a href="#">Dropdown 1</a></li>
+                      <li><a href="#">Dropdown 2</a></li>
+                      <li class="navigation__item--dropdown">
+                        <a class="k__flex-gap--extraLoose" href="#">
+                          <span>Deep Dropdown</span>
+                          <span class="chevron chevron--right"></span>
+                        </a>
+                        <ul class="dropdown dropdown--right list--style-none">
+                          <li><a href="#">Deep Dropdown 1</a></li>
+                          <li><a href="#">Deep Dropdown 2</a></li>
+                          <li><a href="#">Deep Dropdown 3</a></li>
+                          <li><a href="#">Deep Dropdown 4</a></li>
+                          <li><a href="#">Deep Dropdown 5</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Dropdown 3</a></li>
+                      <li><a href="#">Dropdown 4</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <button class="btn btn-primary">Get Started</button>
+              <input id="color-picker" type="color" value="#e0413c" />
+            </div>
+            <div class="hamburger">
+              <i class="bx bx-menu-alt-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header ends here -->
+
+    <!-- Aside starts here -->
+    <aside>
+      <nav aria-labelledby="sidebar-navigation">
+        <ul
+          class="navigation k__flex k__flex--column k__flex--align-start k__flex--justify-start list--style-none"
+        >
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li
+            class="navigation__item--dropdown"
+            id="mobile__dropdown__container1"
+          >
+            <a class="k__flex k__flex--justify-between" href="#">
+              <span class="k__flex-item">Dropdown</span>
+              <span class="k__flex-item">
+                <span class="chevron chevron--down"></span>
+              </span>
+            </a>
+            <ul id="aside__dropdown" class="aside__dropdown list--style-none">
+              <li><a href="#">Dropdown 1</a></li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <button class="btn btn-primary">Get Started</button>
+          </li>
+          <li>
+            <input id="color-picker2" type="color" value="#e0413c" />
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <div id="aside-overlay" class="aside-overlay hidden"></div>
+    <!-- Aside ends here -->
+
+    <main>
+      <!-- Hero section starts -->
+      <section
+        id="hero"
+        class="k__flex k__flex--align-center k__flex--justify-start"
+      >
+        <div class="container">
+          <div
+            class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100 k__flex--wrap"
+          >
+            <div class="hero-content k__flex k__flex--column">
+              <h1
+                class="k__flex-item k__flex-item--100 k__flex-item--T100 k__flex-item--M100"
+              >
+                Bettter digital experience with Presento
+              </h1>
+              <h2
+                class="k__flex-item k__flex-item--100 k__flex-item--T100 k__flex-item--M100"
+              >
+                We are team of talented designers making websites with Bootstrap
+              </h2>
+              <div
+                class="k__flex-item k__flex-item--100 k__flex-item--T100 k__flex-item--M100"
+              >
+                <button class="btn btn-ghost">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero section ends here -->
+
+      <!-- Partners section starts -->
+      <section class="partners">
+        <div id="partners" class="container">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="./assets/images/client-1.png" alt="client-1" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-2.png" alt="client-3" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-3.png" alt="client-3" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-4.png" alt="client-4" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-5.png" alt="client-5" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-6.png" alt="client-6" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-7.png" alt="client-7" />
+            </div>
+            <div class="item">
+              <img src="./assets/images/client-8.png" alt="client-8" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partners section ends here-->
+
+      <!-- About us section -->
+      <section class="about-us tilted-section">
+        <div class="container">
+          <div
+            class="k__flex k__flex--align-center k__flex--justify-center k__flex--wrap"
+          >
+            <div
+              class="about-us__hero k__flex-item k__flex-item--40 k__flex-item--T100"
+            >
+              <div class="k__flex k__flex--column k__flex--wrap">
+                <h2 class="text--light k__flex-item k__flex-item--100">
+                  Voluptatem dignissimos provident quasi
+                </h2>
+                <p class="text--light k__flex-item k__flex-item--100">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis aute irure dolor in reprehenderit
+                </p>
+                <div class="k__flex-item">
+                  <button class="btn btn-ghost--reverse btn-rounded-pill">
+                    <span>ABOUT US</span>
+                    <span class="chevron chevron--right"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="about-us__slave k__flex-item k__flex-item--60 k__flex-item--T100 k__flex-item--M100 mt-T32"
+            >
+              <ul
+                class="k__flex k__flex--justify-evenly k__flex--wrap list--style-none"
+              >
+                <li
+                  class="k__flex-item k__flex-item--50 k__flex-item--T50 k__flex-item--M100"
+                >
+                  <div class="about-us__content">
+                    <i class="box-icon bx bx-receipt"></i>
+                    <h3 class="text--light">Corporis voluptates sit</h3>
+                    <p class="text--gray">
+                      Consequuntur sunt aut quasi enim aliquam quae harum
+                      pariatur laboris nisi ut aliquip
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="k__flex-item k__flex-item--50 k__flex-item--T50 k__flex-item--M100"
+                >
+                  <div class="about-us__content">
+                    <i class="box-icon bx bx-cube"></i>
+                    <h3 class="text--light">Ullamco laboris nisi</h3>
+                    <p class="text--gray">
+                      Excepteur sint occaecat cupidatat non proident, sunt in
+                      culpa qui officia deserunt
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="k__flex-item k__flex-item--50 k__flex-item--T50 k__flex-item--M100"
+                >
+                  <div class="about-us__content">
+                    <i class="box-icon bx bx-images"></i>
+                    <h3 class="text--light">Labore consequatur</h3>
+                    <p class="text--gray">
+                      Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
+                      maiores omnis facere
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="k__flex-item k__flex-item--50 k__flex-item--T50 k__flex-item--M100"
+                >
+                  <div class="about-us__content">
+                    <i class="box-icon bx bx-shield"></i>
+                    <h3 class="text--light">Beatae veritatis</h3>
+                    <p class="text--gray">
+                      Expedita veritatis consequuntur nihil tempore laudantium
+                      vitae denat pacta
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About us section ends here -->
+
+      <!-- Counter section -->
+      <section class="counter">
+        <div class="container">
+          <ul
+            class="k__flex k__flex--align-center list--style-none k__flex--wrap"
+          >
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100"
+            >
+              <div class="counter__card">
+                <i class="bx bx-smile text text--primary"></i>
+                <h3>232</h3>
+                <p>Happy Clients</p>
+              </div>
+            </li>
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100 mt-M48"
+            >
+              <div class="counter__card">
+                <i class="bx bx-file text--primary"></i>
+                <h3>521</h3>
+                <p>Projects</p>
+              </div>
+            </li>
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100 mt-T48 mt-M48"
+            >
+              <div class="counter__card">
+                <i class="bx bx-support text--primary"></i>
+                <h3>1463</h3>
+                <p>Hours Of Support</p>
+              </div>
+            </li>
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100 mt-T48 mt-M48"
+            >
+              <div class="counter__card">
+                <i class="bx bx-user text--primary"></i>
+                <h3>15</h3>
+                <p>Hard Workers</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Counter section ends here -->
+
+      <!-- Switcher tabs section -->
+      <section class="user-tabs">
+        <div class="container">
+          <ul
+            class="tab list--style-none k__flex k__flex--align-center k__flex--justify-center k__flex--wrap"
+          >
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T25 k__flex-item--M25 mt-T32 mt-M32"
+            >
+              <button class="tablinks" onclick="openTab(event, 'Tab1')">
+                <i class="bx bx-wifi"></i>
+                <span>Modi sit est dela pireda nest</span>
+              </button>
+            </li>
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T25 k__flex-item--M25 mt-T32 mt-M32"
+            >
+              <button class="tablinks" onclick="openTab(event, 'Tab2')">
+                <i class="bx bx-scan"></i>
+                <span>Unde praesenti mara setra le</span>
+              </button>
+            </li>
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T25 k__flex-item--M25 mt-T32 mt-M32"
+            >
+              <button class="tablinks" onclick="openTab(event, 'Tab3')">
+                <i class="bx bx-sun"></i>
+                <span>Pariatur explica nitro dela</span>
+              </button>
+            </li>
+            <li
+              class="k__flex-item k__flex-item--25 k__flex-item--T25 k__flex-item--M25 mt-T32 mt-M32"
+            >
+              <button class="tablinks" onclick="openTab(event, 'Tab4')">
+                <i class="bx bx-store-alt"></i>
+                <span>Nostrum qui dile node</span>
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab__content">
+            <div
+              id="Tab1"
+              class="k__flex k__flex--align-start k__flex--wrap show--off"
+            >
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__text">
+                  <h3>
+                    Voluptatem dignissimos provident quasi corporis voluptates
+                    sit assumenda.
+                  </h3>
+                  <em>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </em>
+                  <ul class="list--style-none">
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Duis aute irure dolor in reprehenderit in voluptate
+                        velit.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate trideta storacalaperda mastiro dolore eu
+                        fugiat nulla pariatur.</span
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                  </p>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__image">
+                  <img src="./assets/images/tabs-1.jpg" alt="tab-1" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="Tab2"
+              class="k__flex k__flex--align-start k__flex--wrap show--off"
+            >
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__text">
+                  <h3>
+                    Neque exercitationem debitis soluta quos debitis quo
+                    mollitia officia est
+                  </h3>
+                  <em>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </em>
+                  <ul class="list--style-none">
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Duis aute irure dolor in reprehenderit in voluptate
+                        velit.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate trideta storacalaperda mastiro dolore eu
+                        fugiat nulla pariatur.</span
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                  </p>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__image">
+                  <img src="./assets/images/tabs-2.jpg" alt="tab-2" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="Tab3"
+              class="k__flex k__flex--align-start k__flex--wrap show--off"
+            >
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__text">
+                  <h3>
+                    Voluptatibus commodi ut accusamus ea repudiandae ut autem
+                    dolor ut assumenda
+                  </h3>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                  </p>
+                  <ul class="list--style-none">
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Duis aute irure dolor in reprehenderit in voluptate
+                        velit.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate trideta storacalaperda mastiro dolore eu
+                        fugiat nulla pariatur.</span
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                  </p>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__image">
+                  <img src="./assets/images/tabs-3.jpg" alt="tab-3" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="Tab4"
+              class="k__flex k__flex--align-start k__flex--wrap show--off"
+            >
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__text">
+                  <h3>
+                    Omnis fugiat ea explicabo sunt dolorum asperiores sequi
+                    inventore rerum
+                  </h3>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                  </p>
+                  <em>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </em>
+                  <ul class="list--style-none">
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Duis aute irure dolor in reprehenderit in voluptate
+                        velit.</span
+                      >
+                    </li>
+                    <li>
+                      <i class="bx bx-check-double"></i
+                      ><span
+                        >Ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate trideta storacalaperda mastiro dolore eu
+                        fugiat nulla pariatur.</span
+                      >
+                    </li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                  </p>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="tab__content-container__image">
+                  <img src="./assets/images/tabs-4.jpg" alt="tab-4" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Switcher tabs section ends here -->
+
+      <!-- Services section starts here -->
+      <section class="services tilted-section">
+        <div class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Services</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div
+              class="stepwise-layout--content k__flex k__flex--align-center k__flex--justify-start k__flex--wrap"
+            >
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="stepwise-layout--content__block">
+                  <i class="bx bx-briefcase"></i>
+                  <div>
+                    <a href="#">Lorem Ipsum</a>
+                    <p>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi sint occaecati cupiditate non
+                      provident
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="stepwise-layout--content__block">
+                  <i class="bx bx-list-check"></i>
+                  <div>
+                    <a href="#">Dolor Sitema</a>
+                    <p>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi sint occaecati cupiditate non
+                      provident
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="stepwise-layout--content__block">
+                  <i class="bx bx-bar-chart-alt-2"></i>
+                  <div>
+                    <a href="#">Sed ut perspiciatis</a>
+                    <p>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi sint occaecati cupiditate non
+                      provident
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="stepwise-layout--content__block">
+                  <i class="bx bxs-binoculars"></i>
+                  <div>
+                    <a href="#">Nemo Enim</a>
+                    <p>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi sint occaecati cupiditate non
+                      provident
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="stepwise-layout--content__block">
+                  <i class="bx bx-sun"></i>
+                  <div>
+                    <a href="#">Magni Dolore</a>
+                    <p>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi sint occaecati cupiditate non
+                      provident
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+              >
+                <div class="stepwise-layout--content__block">
+                  <i class="bx bx-calendar"></i>
+                  <div>
+                    <a href="#">Eiusmod Tempor</a>
+                    <p>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi sint occaecati cupiditate non
+                      provident
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services section ends here -->
+
+      <!-- Potfolio section starts here -->
+      <section class="portfolio text--dark-gray">
+        <div class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Portfolio</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div class="stepwise-layout--content">
+              <div
+                class="button-group k__flex k__flex--align-center k__flex--justify-center k__flex-gap--extraTight"
+              >
+                <button class="k__flex-item btn active">All</button>
+                <button class="k__flex-item btn">App</button>
+                <button class="k__flex-item btn">Card</button>
+                <button class="k__flex-item btn">Web</button>
+              </div>
+              <div class="k__flex k__flex--align-center k__flex--wrap">
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-1.jpg"
+                      alt="portfolio-1"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 1</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-2.jpg"
+                      alt="portfolio-2"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 2</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-3.jpg"
+                      alt="portfolio-3"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 3</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-4.jpg"
+                      alt="portfolio-4"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 4</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-5.jpg"
+                      alt="portfolio-5"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 5</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-6.jpg"
+                      alt="portfolio-6"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 6</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-7.jpg"
+                      alt="portfolio-7"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 7</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-8.jpg"
+                      alt="portfolio-8"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 8</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="portfolio__wrapper">
+                    <img
+                      src="./assets/images/portfolio-9.jpg"
+                      alt="portfolio-9"
+                    />
+                    <div class="portfolio-links">
+                      <h4>Card 9</h4>
+                      <em>CARD</em>
+                      <span>
+                        <a href="#"><i class="bx bx-plus"></i></a>
+                        <a href="#"><i class="bx bx-paperclip"></i></a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Potfolio section ends here -->
+
+      <!-- Testimonials section starts here-->
+      <section class="testimonials text--dark-gray">
+        <div id="testimonial" class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Testimonials</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div class="stepwise-layout--content">
+              <div id="testimonials" class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="testimonials__card">
+                    <div class="testimonials__card--header">
+                      <img
+                        src="./assets/images/testimonials-1.jpg"
+                        alt="testimonials-1"
+                      />
+                      <div>
+                        <h4>Saul Goodman</h4>
+                        <p>Ceo & Founder</p>
+                      </div>
+                    </div>
+                    <div class="testimonials__card--description">
+                      <em
+                        >Enim nisi quem export duis labore cillum quae magna
+                        enim sint quorum nulla quem veniam duis minim tempor
+                        labore quem eram duis noster aute amet eram fore quis
+                        sint minim.</em
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="testimonials__card">
+                    <div class="testimonials__card--header">
+                      <img
+                        src="./assets/images/testimonials-2.jpg"
+                        alt="testimonials-2"
+                      />
+                      <div>
+                        <h4>Sara Willson</h4>
+                        <p>Designer</p>
+                      </div>
+                    </div>
+                    <div class="testimonials__card--description">
+                      <em
+                        >Enim nisi quem export duis labore cillum quae magna
+                        enim sint quorum nulla quem veniam duis minim tempor
+                        labore quem eram duis noster aute amet eram fore quis
+                        sint minim.</em
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="testimonials__card">
+                    <div class="testimonials__card--header">
+                      <img
+                        src="./assets/images/testimonials-3.jpg"
+                        alt="testimonials-3"
+                      />
+                      <div>
+                        <h4>Jenna Karlis</h4>
+                        <p>Store Owner</p>
+                      </div>
+                    </div>
+                    <div class="testimonials__card--description">
+                      <em
+                        >Enim nisi quem export duis labore cillum quae magna
+                        enim sint quorum nulla quem veniam duis minim tempor
+                        labore quem eram duis noster aute amet eram fore quis
+                        sint minim.</em
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="testimonials__card">
+                    <div class="testimonials__card--header">
+                      <img
+                        src="./assets/images/testimonials-4.jpg"
+                        alt="testimonials-4"
+                      />
+                      <div>
+                        <h4>Matt Brandon</h4>
+                        <p>Freelancer</p>
+                      </div>
+                    </div>
+                    <div class="testimonials__card--description">
+                      <em
+                        >Enim nisi quem export duis labore cillum quae magna
+                        enim sint quorum nulla quem veniam duis minim tempor
+                        labore quem eram duis noster aute amet eram fore quis
+                        sint minim.</em
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="testimonials__card">
+                    <div class="testimonials__card--header">
+                      <img
+                        src="./assets/images/testimonials-5.jpg"
+                        alt="testimonials-5"
+                      />
+                      <div>
+                        <h4>John Larson</h4>
+                        <p>Entrepreneur</p>
+                      </div>
+                    </div>
+                    <div class="testimonials__card--description">
+                      <em
+                        >Enim nisi quem export duis labore cillum quae magna
+                        enim sint quorum nulla quem veniam duis minim tempor
+                        labore quem eram duis noster aute amet eram fore quis
+                        sint minim.</em
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials section ends here -->
+
+      <!-- Pricing section starts here -->
+      <section class="pricing tilted-section">
+        <div class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Pricing</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div class="stepwise-layout--content">
+              <div class="k__flex k__flex--align-center k__flex--wrap">
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T33 k__flex-item--M100 mt-T48 mt-M32"
+                >
+                  <div class="pricing__card">
+                    <h3>Free</h3>
+                    <h4>
+                      <sup>$</sup>
+                      0
+                      <span>/ month</span>
+                    </h4>
+                    <p>Aida dere</p>
+                    <p>Nec feugiat nisl</p>
+                    <p>Nulla at volutpat dola</p>
+                    <p class="text--stripe">Pharetra massa</p>
+                    <p class="text--stripe">Massa ultricies mi</p>
+                    <button class="btn btn-transparent btn-thick">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T33 k__flex-item--M100 mt-T48 mt-M32"
+                >
+                  <div class="pricing__card bg--primary">
+                    <h3>Business</h3>
+                    <h4>
+                      <sup>$</sup>
+                      19
+                      <span>/ month</span>
+                    </h4>
+                    <p>Aida dere</p>
+                    <p>Nec feugiat nisl</p>
+                    <p>Nulla at volutpat dola</p>
+                    <p>Pharetra massa</p>
+                    <p class="text--stripe">Massa ultricies mi</p>
+                    <button class="btn btn-transparent btn-thick">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--33 k__flex-item--T33 k__flex-item--M100 mt-T48 mt-M32"
+                >
+                  <div class="pricing__card">
+                    <h3>Developer</h3>
+                    <h4>
+                      <sup>$</sup>
+                      29
+                      <span>/ month</span>
+                    </h4>
+                    <p>Aida dere</p>
+                    <p>Nec feugiat nisl</p>
+                    <p>Nulla at volutpat dola</p>
+                    <p>Pharetra massa</p>
+                    <p>Massa ultricies mi</p>
+                    <button class="btn btn-transparent btn-thick">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Pricing section ends here -->
+
+      <!-- FAQs section starts here -->
+      <section class="faqs text--dark-gray">
+        <div class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Frequently Asked Questions</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div class="stepwise-layout--content">
+              <div class="faqs__accordian">
+                <div
+                  class="faqs__accordian-header k__flex k__flex--align-center k__flex--justify-between"
+                >
+                  <h4 class="k__flex-item">
+                    Non consectetur a erat nam at lectus urna duis?
+                  </h4>
+                  <span class="k__flex-item arrow arrow--down"></span>
+                </div>
+                <div class="faqs__accordian-content">
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur gravida. Venenatis
+                    lectus magna fringilla urna porttitor rhoncus dolor purus
+                    non.
+                  </p>
+                </div>
+              </div>
+              <div class="faqs__accordian">
+                <div
+                  class="faqs__accordian-header k__flex k__flex--align-center k__flex--justify-between"
+                >
+                  <h4 class="k__flex-item">
+                    Feugiat scelerisque varius morbi enim nunc faucibus a
+                    pellentesque?
+                  </h4>
+                  <span class="k__flex-item arrow arrow--down"></span>
+                </div>
+                <div class="faqs__accordian-content">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </div>
+              <div class="faqs__accordian">
+                <div
+                  class="faqs__accordian-header k__flex k__flex--align-center k__flex--justify-between"
+                >
+                  <h4 class="k__flex-item">
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi?
+                  </h4>
+                  <span class="k__flex-item arrow arrow--down"></span>
+                </div>
+                <div class="faqs__accordian-content">
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                    pellentesque eu tincidunt. Lectus urna duis convallis
+                    convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis
+                  </p>
+                </div>
+              </div>
+              <div class="faqs__accordian">
+                <div
+                  class="faqs__accordian-header k__flex k__flex--align-center k__flex--justify-between"
+                >
+                  <h4 class="k__flex-item">
+                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                  </h4>
+                  <span class="k__flex-item arrow arrow--down"></span>
+                </div>
+                <div class="faqs__accordian-content">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque
+                    habitant morbi. Id interdum velit laoreet id donec ultrices.
+                    Fringilla phasellus faucibus scelerisque eleifend donec
+                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                    ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </div>
+              <div class="faqs__accordian">
+                <div
+                  class="faqs__accordian-header k__flex k__flex--align-center k__flex--justify-between"
+                >
+                  <h4 class="k__flex-item">
+                    Tempus quam pellentesque nec nam aliquam sem et tortor
+                    consequat?
+                  </h4>
+                  <span class="k__flex-item arrow arrow--down"></span>
+                </div>
+                <div class="faqs__accordian-content">
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo.
+                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                    bibendum est. Purus gravida quis blandit turpis cursus in
+                  </p>
+                </div>
+              </div>
+              <div class="faqs__accordian">
+                <div
+                  class="faqs__accordian-header k__flex k__flex--align-center k__flex--justify-between"
+                >
+                  <h4 class="k__flex-item">
+                    Tortor vitae purus faucibus ornare. Varius vel pharetra vel
+                    turpis nunc eget lorem dolor?
+                  </h4>
+                  <span class="k__flex-item arrow arrow--down"></span>
+                </div>
+                <div class="faqs__accordian-content">
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo.
+                    Mauris vitae ultricies leo integer malesuada nunc vel.
+                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
+                    eu scelerisque. Pellentesque diam volutpat commodo sed
+                    egestas egestas fringilla phasellus faucibus. Nibh tellus
+                    molestie nunc non blandit massa enim nec.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQs section ends here -->
+
+      <!-- Team section starts here -->
+      <section class="teams tilted-section">
+        <div class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Teams</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div class="stepwise-layout--content">
+              <div class="k__flex k__flex--align-center k__flex--wrap">
+                <div
+                  class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100"
+                >
+                  <div class="teams-card">
+                    <img src="./assets/images/team-1.jpg" alt="team-1" />
+                    <div class="teams-card__tiles">
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                      <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                      <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                    </div>
+                    <div class="teams-card__content">
+                      <h4>Walter White</h4>
+                      <p>Chief Executive Officer</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100 mt-M48"
+                >
+                  <div class="teams-card">
+                    <img src="./assets/images/team-2.jpg" alt="team-2" />
+                    <div class="teams-card__tiles">
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                      <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                      <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                    </div>
+                    <div class="teams-card__content">
+                      <h4>Sarah Jhonson</h4>
+                      <p>Product Manager</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100 mt-T32 mt-M48"
+                >
+                  <div class="teams-card">
+                    <img src="./assets/images/team-3.jpg" alt="team-3" />
+                    <div class="teams-card__tiles">
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                      <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                      <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                    </div>
+                    <div class="teams-card__content">
+                      <h4>William Anderson</h4>
+                      <p>CTO</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--25 k__flex-item--T50 k__flex-item--M100 mt-T32 mt-M48"
+                >
+                  <div class="teams-card">
+                    <img src="./assets/images/team-4.jpg" alt="team-4" />
+                    <div class="teams-card__tiles">
+                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                      <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+                      <a href="#"><i class="bx bxl-instagram"></i></a>
+                      <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                    </div>
+                    <div class="teams-card__content">
+                      <h4>Amanda Jepson</h4>
+                      <p>Accountant</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team section ends here -->
+
+      <!-- Contact section starts here -->
+      <section class="contact text--dark-gray">
+        <div class="container">
+          <div class="stepwise-layout">
+            <div class="stepwise-layout--header">
+              <h4>Contact</h4>
+            </div>
+            <div class="stepwise-layout--description">
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              </p>
+            </div>
+            <div class="stepwise-layout--content">
+              <div class="k__flex k__flex--align-start k__flex--wrap">
+                <div
+                  class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="k__flex k__flex--align-center k__flex--wrap">
+                    <div class="k__flex-item k__flex-item--100">
+                      <div class="contact__card">
+                        <i class="bx bx-location-plus"></i>
+                        <h5>Our Address</h5>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                      </div>
+                    </div>
+                    <div
+                      class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+                    >
+                      <div class="contact__card">
+                        <i class="bx bx-envelope"></i>
+                        <h5>Email Us</h5>
+                        <p>info@example.com</p>
+                        <p>contact@example.com</p>
+                      </div>
+                    </div>
+                    <div
+                      class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+                    >
+                      <div class="contact__card">
+                        <i class="bx bx-phone-call"></i>
+                        <h5>Call Us</h5>
+                        <p>+1 5589 55488 55</p>
+                        <p>+1 6678 254445 41</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+                >
+                  <div class="contact__form">
+                    <div class="k__flex k__flex--align-center k__flex--wrap">
+                      <div
+                        class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+                      >
+                        <input type="text" placeholder="Your Name" />
+                      </div>
+                      <div
+                        class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+                      >
+                        <input type="email" placeholder="Your Email" />
+                      </div>
+                      <div class="k__flex-item k__flex-item--100">
+                        <input type="text" placeholder="Subject" />
+                      </div>
+                      <div class="k__flex-item k__flex-item--100">
+                        <textarea
+                          name=""
+                          placeholder="Message"
+                          rows="10"
+                        ></textarea>
+                      </div>
+                      <div class="k__flex-item k__flex-item--100">
+                        <button class="btn btn-primary btn-thick">
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section ends here -->
+    </main>
+
+    <!-- Footer section starts here -->
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="k__flex k__flex--align-start k__flex--wrap">
+            <div
+              class="k__flex-item k__flex-item--70 k__flex-item--T100 k__flex-item--M100"
+            >
+              <div class="k__flex k__flex--align-start k__flex--wrap">
+                <div class="k__flex-item k__flex-item--40 k__flex-item--M100">
+                  <div class="footer__content">
+                    <h5>Presento</h5>
+                    <p>
+                      A108 Adam Street <br />
+                      New York, NY 535022 <br />
+                      United States
+                    </p>
+                    <div>
+                      <p><b>Phone:</b> +1 5589 55488 55</p>
+                      <p><b>Email:</b> info@example.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--30 k__flex-item--M100 mt-M32"
+                >
+                  <div class="footer__styled-content">
+                    <h6>Useful Links</h6>
+                    <ul class="list--style-none">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#">About us</a>
+                      </li>
+                      <li>
+                        <a href="#">Services</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms of service</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy policy</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="k__flex-item k__flex-item--30 k__flex-item--M100 mt-M32"
+                >
+                  <div class="footer__styled-content">
+                    <h6>Our Services</h6>
+                    <ul class="list--style-none">
+                      <li>
+                        <a href="#">Web Design</a>
+                      </li>
+                      <li>
+                        <a href="#">Web Development</a>
+                      </li>
+                      <li>
+                        <a href="#">Product Management</a>
+                      </li>
+                      <li>
+                        <a href="#">Marketing</a>
+                      </li>
+                      <li>
+                        <a href="#">Graphic Design</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="k__flex-item k__flex-item--30 k__flex-item--T100 k__flex-item--M100 mt-M32"
+            >
+              <div class="footer__styled-content newsletter">
+                <h6>Join Our Newsletter</h6>
+                <p>
+                  Tamen quem nulla quae legam multos aute sint culpa legam
+                  noster magna
+                </p>
+                <div class="newsletter__form-action">
+                  <input type="email" name="email" />
+                  <input type="submit" value="Subscribe" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer__copyright">
+        <div class="container">
+          <div
+            class="k__flex k__flex--align-center k__flex--justify-between k__flex--wrap"
+          >
+            <div
+              class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100"
+            >
+              <div class="footer__copyright-content">
+                <p>© Copyright Presento. All Rights Reserved</p>
+                <p>Designed by <span>Kushal</span></p>
+              </div>
+            </div>
+            <div
+              class="k__flex-item k__flex-item--50 k__flex-item--T100 k__flex-item--M100 mt-T16 mt-M16"
+            >
+              <ul class="list--style-none footer__copyright-links">
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-skype"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="bx bxl-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Footer section ends here -->
+
+    <!-- Custom JS here -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Custom JS ends here -->
+  </body>
+</html>
