@@ -592,8 +592,15 @@ aside .navigation__item--dropdown a span:last-child {
   background-size: cover;
   position: relative;
   padding-top: 8.2rem;
-  height: 100vh;
   width: 100%;
+}
+
+.hero-left {
+  height: 100vh;
+}
+
+.hero-content {
+  height: 100%;
 }
 
 .hero-content > h1 {
